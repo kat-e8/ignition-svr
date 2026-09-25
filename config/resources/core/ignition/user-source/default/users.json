@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "uuid": "11a9f5a5-6ad1-4802-be99-fb0ff6dd7136",
+      "username": "admin",
+      "schedule": "Always",
+      "password": "[A79771E7]d7b65bad3b90adeaaae1a0421f85d7153ef0fd67f86141acb206bd3afd9099d5",
+      "passwordDate": "20260925.105827939+0000",
+      "passwordHistory": [],
+      "createdDate": "20260925.105827938+0000",
+      "lastModifiedDate": "20260925.105827938+0000",
+      "roles": [
+        "760b96a5-b045-4fd9-aad7-bd50e088c61b"
+      ],
+      "extraProps": [],
+      "scheduleAdjustments": [],
+      "contactInfos": []
+    }
+  ],
+  "roles": [
+    {
+      "uuid": "760b96a5-b045-4fd9-aad7-bd50e088c61b",
+      "rolename": "Administrator",
+      "createdDate": "20260925.105827938+0000",
+      "lastModifiedDate": "20260925.105827938+0000"
+    }
+  ]
+}

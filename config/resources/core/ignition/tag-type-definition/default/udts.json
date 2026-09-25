@@ -1,0 +1,100 @@
+[
+  {
+    "documentation": "Storage tank: level, temperature, HOA selector, status and inlet valve. LineNumber (0-9) selects Tank 10\u003cLineNumber\u003e on device SimPLC.",
+    "name": "Tank",
+    "parameters": {
+      "LineNumber": {
+        "dataType": "Integer",
+        "value": 0
+      }
+    },
+    "tagType": "UdtType",
+    "tags": [
+      {
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[SimPLC]Tank 10{LineNumber}/HOA"
+        },
+        "valueSource": "opc",
+        "dataType": "Int2",
+        "documentation": "Hand/Off/Auto selector: 0\u003dOff, 1\u003dHand, 2\u003dAuto",
+        "name": "HOA",
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[SimPLC]Tank 10{LineNumber}/level_PV"
+        },
+        "valueSource": "opc",
+        "dataType": "Float8",
+        "historyProvider": "PGRES",
+        "engHigh": 100.0,
+        "documentation": "Tank level process value",
+        "name": "level_PV",
+        "historyEnabled": true,
+        "formatString": "#,##0.0",
+        "engUnit": "%",
+        "engLow": 0.0,
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[SimPLC]Tank 10{LineNumber}/tank_status"
+        },
+        "valueSource": "opc",
+        "dataType": "Int2",
+        "documentation": "0\u003dIdle, 1\u003dFilling, 2\u003dDraining",
+        "name": "tank_status",
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[SimPLC]Tank 10{LineNumber}/temp"
+        },
+        "valueSource": "opc",
+        "dataType": "Float8",
+        "historyProvider": "PGRES",
+        "engHigh": 100.0,
+        "documentation": "Tank temperature",
+        "name": "temp",
+        "historyEnabled": true,
+        "formatString": "#,##0.0",
+        "engUnit": "°C",
+        "engLow": 0.0,
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[SimPLC]Tank 10{LineNumber}/valve_ctrl"
+        },
+        "valueSource": "opc",
+        "dataType": "Boolean",
+        "documentation": "Valve open command: true\u003dopen",
+        "name": "valve_ctrl",
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[SimPLC]Tank 10{LineNumber}/valve_status"
+        },
+        "valueSource": "opc",
+        "readOnly": true,
+        "dataType": "Boolean",
+        "documentation": "Valve position feedback: true\u003dopen",
+        "name": "valve_status",
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      }
+    ]
+  }
+]

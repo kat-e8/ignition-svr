@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Tank 105",
+    "typeId": "Tank",
+    "parameters": {
+      "LineNumber": {
+        "dataType": "Integer",
+        "value": 5
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Tank 101",
+    "typeId": "Tank",
+    "parameters": {
+      "LineNumber": {
+        "dataType": "Integer",
+        "value": 1
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Tank 100",
+    "typeId": "Tank",
+    "parameters": {
+      "LineNumber": {
+        "dataType": "Integer",
+        "value": 0
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Tank 102",
+    "typeId": "Tank",
+    "parameters": {
+      "LineNumber": {
+        "dataType": "Integer",
+        "value": 2
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Tank 103",
+    "typeId": "Tank",
+    "parameters": {
+      "LineNumber": {
+        "dataType": "Integer",
+        "value": 3
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Tank 104",
+    "typeId": "Tank",
+    "parameters": {
+      "LineNumber": {
+        "dataType": "Integer",
+        "value": 4
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Tank 109",
+    "typeId": "Tank",
+    "parameters": {
+      "LineNumber": {
+        "dataType": "Integer",
+        "value": 9
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Tank 106",
+    "typeId": "Tank",
+    "parameters": {
+      "LineNumber": {
+        "dataType": "Integer",
+        "value": 6
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Tank 108",
+    "typeId": "Tank",
+    "parameters": {
+      "LineNumber": {
+        "dataType": "Integer",
+        "value": 8
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Tank 107",
+    "typeId": "Tank",
+    "parameters": {
+      "LineNumber": {
+        "dataType": "Integer",
+        "value": 7
+      }
+    },
+    "tagType": "UdtInstance"
+  }
+]

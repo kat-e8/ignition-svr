@@ -1,0 +1,36 @@
+{
+  "connectURL": "jdbc:postgresql://main-db-prod:5433/prod-db",
+  "connectionProps": "",
+  "connectionResetParams": "",
+  "defaultTransactionLevel": "DEFAULT",
+  "driver": "PostgreSQL",
+  "evictionRate": -1,
+  "evictionTests": 3,
+  "evictionTime": 1800000,
+  "failoverMode": "STANDARD",
+  "failoverProfile": "",
+  "includeSchemaInTableName": false,
+  "password": {
+    "data": {
+      "ciphertext": "KU8vLmSvu-EBSjPqWXlc",
+      "encrypted_key": "YwU9B35W97UheQp1udKQZsP9y0Tb_fxqf_3XlxsvjK09Ss4js3H3Gw",
+      "iv": "gsEePZokxN1-WESi",
+      "protected": "eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIiwiaWF0IjoxNzkwMzM3MDIwLCJ6aXAiOiJERUYifQ",
+      "tag": "McO1HBwwvfgfd85LRNs8OQ"
+    },
+    "type": "Embedded"
+  },
+  "poolInitSize": 0,
+  "poolMaxActive": 8,
+  "poolMaxIdle": 8,
+  "poolMaxWait": 5000,
+  "poolMinIdle": 0,
+  "slowQueryLogThreshold": 60000,
+  "testOnBorrow": true,
+  "testOnReturn": false,
+  "testWhileIdle": false,
+  "translator": "POSTGRES",
+  "username": "prod-user",
+  "validationQuery": "SELECT 1",
+  "validationSleepTime": 10000
+}

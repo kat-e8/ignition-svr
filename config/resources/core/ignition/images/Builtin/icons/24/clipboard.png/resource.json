@@ -1,0 +1,20 @@
+{
+  "scope": "A",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "clipboard.png"
+  ],
+  "attributes": {
+    "width": 24,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "import",
+      "timestamp": "2026-09-25T10:58:38Z"
+    },
+    "size": 456,
+    "lastModificationSignature": "e5208509d5fb88fd8d18b84aa4589aa3a88152e1a7a8031482cf216752f8f9f4",
+    "height": 24
+  }
+}

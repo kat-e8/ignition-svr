@@ -1,0 +1,20 @@
+{
+  "scope": "A",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "pie-chart.png"
+  ],
+  "attributes": {
+    "width": 32,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "import",
+      "timestamp": "2026-09-25T10:58:38Z"
+    },
+    "size": 976,
+    "lastModificationSignature": "57b6cd22b3be59bed78c5e7e0fa57efb2c75d9ec5877dc5794f402598b8a980a",
+    "height": 32
+  }
+}
